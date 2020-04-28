@@ -48,6 +48,7 @@ configure :build do
   # activate :relative_assets
   # activate :asset_hash
   # activate :gzip
+  set :build_dir, 'docs'
 end
 
 # Deploy Configuration
